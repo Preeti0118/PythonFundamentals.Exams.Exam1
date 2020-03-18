@@ -106,7 +106,7 @@ def find_duplicates(tuple_in: Tuple) -> List:
     dup_list = []
     for t in tuple_in:
         if t in dup_list:
-            flag = True
+
             continue
         else:
             v_count = tuple_in.count(t)
